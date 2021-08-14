@@ -1,4 +1,4 @@
-service: node-in-aws-web
+service: my-first-app-n7
 
 frameworkVersion: '2'
 
@@ -7,7 +7,7 @@ provider:
   region: eu-west-1
   runtime: nodejs12.x
   # setup profile for AWS CLI.
-  # profile: node-aws
+  profile: personalAccount
 
 plugins:
   - serverless-finch
@@ -18,7 +18,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: my-first-app-n7
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
