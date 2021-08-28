@@ -7,6 +7,13 @@
     "title": "ProductOne somethink else"
   },
   {
+    "count": 1,
+    "description": "Short Product Description",
+    "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
+    "price": 10.4,
+    "title": "Another Product"
+  },
+  {
     "count": 6,
     "description": "Short Product Description3",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a0",
